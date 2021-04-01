@@ -1,4 +1,4 @@
-package Array;
+package chapter03.Array;
 
 public class Student {
     private String name;
@@ -15,7 +15,7 @@ public class Student {
     }
 
     public static void main(String[] args) {
-        Array<Student> arr = new Array();
+        Array<Student> arr = new Array<Student>();
         arr.addLast(new Student("Alice", 100));
         arr.addLast(new Student("Bob", 66));
         arr.addLast(new Student("Charlie",88));
