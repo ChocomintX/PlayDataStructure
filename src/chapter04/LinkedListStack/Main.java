@@ -1,0 +1,16 @@
+package chapter04.LinkedListStack;
+
+
+import chapter04.LinkedList.LinkedList;
+
+public class Main {
+    public static void main(String[] args) {
+        LinkedListStack<Integer> stack = new LinkedListStack<Integer>();
+        for (int i = 0; i < 5; i++) {
+            stack.push(i);
+            System.out.println(stack);
+        }
+        stack.pop();
+        System.out.println(stack);
+    }
+}
