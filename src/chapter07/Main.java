@@ -1,5 +1,9 @@
 package chapter07;
 
+import chapter07.Set.BSTSet;
+import chapter07.Set.LinkedListSet;
+import chapter07.Set.Set;
+
 import java.util.ArrayList;
 
 public class Main {

@@ -1,4 +1,4 @@
-package chapter07;
+package chapter07.Set;
 
 public interface Set<E> {
     void add(E e);
